@@ -1,59 +1,44 @@
-Kandan - [Modern Open Source Chat](http://www.getkandan.com)
-================================
-[![Build Status](https://travis-ci.org/kandanapp/kandan.png?branch=master)](https://travis-ci.org/kandanapp/kandan)
-[![Coverage Status](https://coveralls.io/repos/kandanapp/kandan/badge.png?branch=master)](https://coveralls.io/r/kandanapp/kandan)
-[![Dependency Status](https://gemnasium.com/kandanapp/kandan.png)](https://gemnasium.com/kandanapp/kandan)
-[![Code Climate](https://codeclimate.com/github/kandanapp/kandan.png)](https://codeclimate.com/github/kandanapp/kandan)
-
-What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.
-
-Unlike HipChat or other alternatives, Kandan is completely Open Source and can be hosted internally or externally by your organization or by a third party.
-
-![](https://raw.github.com/kandanapp/kandan/resources/kandan_1.1.png)
-
-Standard Features
-=================
-These are features that work out of the box on any provider:
-
- * Easy deploy to CloudFoundry, Heroku, dotCloud, etc.
- * Collaborative team chat
- * Unlimited channels
- * Embed formats for images and youtube videos with requests for others (twitter, facebook, g+, etc.)
- * Synchronized sound player - play any audio-tag compatible url for the whole channel (Pending :P)
- * /me command!
- * Highly extensible plugin format
- * [Your very own robotic companion](https://github.com/kandanapp/hubot-kandan-app)
-
-Deployment
-==========
-
-See [DEPLOY.md](https://github.com/kandanapp/kandan/blob/master/DEPLOY.md) for information on deploying.
-
-
-TODO
-====
-We're tracking milestones and todo items in the tracker
-[See the issue tracker](https://github.com/kandanapp/kandan/issues)
-
-Get Involved!
-=============
-That's not a question, it's an order! Or more of a friendly offer, really. Kandan is a fully open-source app, so dive in and start adding features, fixing bugs (what bugs?), and cleaning up the code.
-
-* GitHub [issues tracker](https://github.com/kandanapp/kandan/issues)
-* Twitter [@kandanapp](https://twitter.com/kandanapp)
-* [Kandan Demo](http://demo.getkandan.com) (Yes we eat our own DogFood)
-
-You can also email us at [admin@getkandan.com](mailto:admin@getkandan.com)
-
-
-Credits
-=======
-* [Sacha Greif](http://sachagreif.com/i-wrote-a-book/) for his __amazing__ design job and exacting implementation standards on Kandan. A wonder and a pleasure to work with.
-* [Andrew Hampton](https://github.com/andrewhampton) For the initial manual server install instructions.
-* [Akash Manohar J](https://github.com/HashNuke) For some of the initial work on Kandan
-* [Thomas Risberg](https://github.com/trisberg) For the Cloud Foundry install instructions and compatibility fixes.
-* and many other [amazing contributors](https://github.com/kandanapp/kandan/graphs/contributors) 
-
-LICENSE
-=======
-Kandan's code and assets are dual-licensed. Kandan is available generally under the AGPL, and also under a custom license via special agreement. See LICENSE for the AGPL terms, and contact us at [admin@getkandan.com](mailto:admin@getkandan.com) if you're interested in development of Kandan under a custom license.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kandan -</font></font><a href="http://www.getkandan.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现代开源聊天</font></font></a></h1><a id="user-content-kandan---modern-open-source-chat" class="anchor" aria-label="永久链接：Kandan - 现代开源聊天" href="#kandan---modern-open-source-chat"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://travis-ci.org/kandanapp/kandan" rel="nofollow"><img src="https://camo.githubusercontent.com/51a2332eee866dce3a563dc7c5987f3d5eb786357df78d3b5b639d06ee956f9a/68747470733a2f2f7472617669732d63692e6f72672f6b616e64616e6170702f6b616e64616e2e706e673f6272616e63683d6d6173746572" alt="构建状态" data-canonical-src="https://travis-ci.org/kandanapp/kandan.png?branch=master" style="max-width: 100%;"></a>
+<a href="https://coveralls.io/r/kandanapp/kandan" rel="nofollow"><img src="https://camo.githubusercontent.com/532c514c98196bca2518aae3eeb9cf6dcd8935bfb20fa4782014f7e071c4d370/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6b616e64616e6170702f6b616e64616e2f62616467652e706e673f6272616e63683d6d6173746572" alt="覆盖状态" data-canonical-src="https://coveralls.io/repos/kandanapp/kandan/badge.png?branch=master" style="max-width: 100%;"></a>
+<a href="https://gemnasium.com/kandanapp/kandan" rel="nofollow"><img src="https://camo.githubusercontent.com/9643252241819389f61c921d51fcb0ca0fa86a8d941e0ef71c7b1bd77f61c220/68747470733a2f2f67656d6e617369756d2e636f6d2f6b616e64616e6170702f6b616e64616e2e706e67" alt="依赖状态" data-canonical-src="https://gemnasium.com/kandanapp/kandan.png" style="max-width: 100%;"></a>
+<a href="https://codeclimate.com/github/kandanapp/kandan" rel="nofollow"><img src="https://camo.githubusercontent.com/8266fd3f787094b70606effa306aa4c5f0f91e442b492eb690f09315e73aa2b5/68747470733a2f2f636f6465636c696d6174652e636f6d2f6769746875622f6b616e64616e6170702f6b616e64616e2e706e67" alt="气候规范" data-canonical-src="https://codeclimate.com/github/kandanapp/kandan.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是坎丹？ Kandan 是为您的公司或团队提供的私人聊天服务。您可以邀请同事在一个或多个持久群聊室中分享想法和文件。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 HipChat 或其他替代方案不同，Kandan 是完全开源的，可以由您的组织或第三方在内部或外部托管。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c8f4eab954a8875ed8fa5701b706b78ed6373179eacbeac548740a7db5ae146b/68747470733a2f2f7261772e6769746875622e636f6d2f6b616e64616e6170702f6b616e64616e2f7265736f75726365732f6b616e64616e5f312e312e706e67"><img src="https://camo.githubusercontent.com/c8f4eab954a8875ed8fa5701b706b78ed6373179eacbeac548740a7db5ae146b/68747470733a2f2f7261772e6769746875622e636f6d2f6b616e64616e6170702f6b616e64616e2f7265736f75726365732f6b616e64616e5f312e312e706e67" alt="" data-canonical-src="https://raw.github.com/kandanapp/kandan/resources/kandan_1.1.png" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准功能</font></font></h1><a id="user-content-standard-features" class="anchor" aria-label="永久链接：标准功能" href="#standard-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些功能在任何提供商上都是开箱即用的：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松部署到 CloudFoundry、Heroku、dotCloud 等。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">协作团队聊天</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无限频道</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">嵌入图像和 YouTube 视频格式以及其他请求（twitter、facebook、g+ 等）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同步声音播放器 - 播放整个频道的任何音频标签兼容的 URL（待处理：P）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/我命令！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高度可扩展的插件格式</font></font></li>
+<li><a href="https://github.com/kandanapp/hubot-kandan-app"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您专属的机器人伴侣</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署</font></font></h1><a id="user-content-deployment" class="anchor" aria-label="永久链接：部署" href="#deployment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关部署的信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/kandanapp/kandan/blob/master/DEPLOY.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DEPLOY.md 。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">去做</font></font></h1><a id="user-content-todo" class="anchor" aria-label="永久链接：待办事项" href="#todo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们正在跟踪器中跟踪里程碑和待办事项
+</font></font><a href="https://github.com/kandanapp/kandan/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看问题跟踪器</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参与其中！</font></font></h1><a id="user-content-get-involved" class="anchor" aria-label="永久链接：参与其中！" href="#get-involved"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不是问题，这是命令！或者更多的是一个友好的提议，真的。 Kandan 是一个完全开源的应用程序，因此请深入研究并开始添加功能、修复错误（什么错误？）并清理代码。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub</font></font><a href="https://github.com/kandanapp/kandan/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题跟踪器</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推特</font></font><a href="https://twitter.com/kandanapp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@kandanapp</font></font></a></li>
+<li><a href="http://demo.getkandan.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kandan 演示</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（是的，我们吃自己的狗粮）</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以发送电子邮件至</font></font><a href="mailto:admin@getkandan.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">admin@getkandan.com</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作人员</font></font></h1><a id="user-content-credits" class="anchor" aria-label="永久链接：学分" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="http://sachagreif.com/i-wrote-a-book/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sacha Greif</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出色</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设计工作和 Kandan 严格的实施标准。与我们一起工作是一种奇迹和乐趣。</font></font></li>
+<li><a href="https://github.com/andrewhampton"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Andrew Hampton</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关初始手动服务器安装说明。</font></font></li>
+<li><a href="https://github.com/HashNuke"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Akash Manohar J</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 Kandan 的一些初步工作</font></font></li>
+<li><a href="https://github.com/trisberg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thomas Risberg</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于 Cloud Foundry 安装说明和兼容性修复。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及许多其他</font></font><a href="https://github.com/kandanapp/kandan/graphs/contributors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出色的贡献者</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h1><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kandan 的代码和资产是双重许可的。 Kandan 通常可在 AGPL 下使用，也可通过特殊协议根据定制许可使用。请参阅 AGPL 条款的许可，</font><font style="vertical-align: inherit;">如果您有兴趣在自定义许可下开发 Kandan，请通过</font></font><a href="mailto:admin@getkandan.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">admin@getkandan.com与我们联系。</font></font></a><font style="vertical-align: inherit;"></font></p>
+</article></div>
